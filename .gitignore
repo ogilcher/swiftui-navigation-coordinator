@@ -1,0 +1,63 @@
+# macOS
+.DS_Store
+
+# Xcode
+Build/
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcodeproj/xcuserdata/
+
+# Xcode user data
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.preview-thumbnails/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM artifacts
+.swiftpm/
+
+# Code coverage
+*.profdata
+*.xccovreport
+*.xccovarchive
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# App packaging
+*.dSYM.zip
+*.dSYM
+
+# Xcode	Cloud
+ci_scripts/
+
+# Environment files
+.env
+.env.local
